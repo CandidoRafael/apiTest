@@ -10,4 +10,4 @@ router.use('/', router.get('/', async (req, res) => {
 router.use('/api', apiRouter);
 router.use('/welcome', welcomeRouter);
 
-export { router }
+export default router;
